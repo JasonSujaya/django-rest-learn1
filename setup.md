@@ -17,3 +17,8 @@ python manage.py runserver
 //Migration
 python manage.py makemigrations
 python manage.py migrate
+
+//Heroku
+heroku login
+
+heroku logs --tail
